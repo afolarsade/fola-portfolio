@@ -58,7 +58,7 @@ const contactForm = document.getElementById('contact-form'),
       contactProject = document.getElementById('contact-project'),
       contactMessage = document.getElementById('contact-message')
 
-const sendEmail = (e) => {
+const sendEmail = (e) =>{
     e.preventDefault()
 
     //Check if the field has a value
@@ -67,22 +67,21 @@ const sendEmail = (e) => {
         contactMessage.classList.remove('color-blue')
         contactMessage.classList.add('color-red')
 
-        //Show message
-        contactMessage.textContent = 'Kindly provide all the input fields 😊'
+        //Show Message
+        contactMessage.textContent = 'Kindly fill out all input fields 😊'
     }else{
         //serviceID - templateID - #form - publicKey
-        emailjs.sendForm('service_0tn4573','template_0wucgsn','#contact-form','0FBx9EK_iqJ0punjl')
+        emailjs.sendForm('service_99eyn5b','template_ciau1jp','#contact-form','0FBx9EK_iqJ0punjl')
         .then(() =>{
             //Show message and add color
             contactMessage.classList.add('color-blue')
-            contactMessage.textContent = 'Message sent 😋'
+            contactMessage.textContent = 'Message sent 💙'
 
-            //Remove message after three seconds
+            //Remove message after five seconds
             setTimeout(() =>{
                 contactMessage.textContent = ''
-            }, 3000)
+            }, 5000)
         }, (error) =>{
-            //Mail sending error
             alert('OOPS! SOMETHING WENT WRONG...', error)
         })
 
@@ -92,9 +91,7 @@ const sendEmail = (e) => {
         contactProject.value = ''
     }
 }
-
 contactForm.addEventListener('submit', sendEmail)
-
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]')
     
