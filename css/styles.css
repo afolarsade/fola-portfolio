@@ -1149,10 +1149,10 @@ body.dark-theme {
     border-radius: .75rem;
     display: none;
     text-align: center;
-    padding: 40px 40px;
+    padding: 45px 40px;
     color: #fff;
     justify-items: center;
-    font-size: 14px;
+    font-size: 13px;
     transition: display 0.5s;
   }
   .projects__content:hover .projects__layer{
