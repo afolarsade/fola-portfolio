@@ -857,7 +857,7 @@ body.dark-theme {
     display: none;
   }
   .projects__img{
-    height: 200px;
+    height: 170px;
     width: 220px;
     justify-self: center;
   }
@@ -877,10 +877,32 @@ body.dark-theme {
     border-radius: .75rem;
     display: none;
     text-align: center;
-    padding: 13px 10px;
+    padding: 10px 10px;
     color: #fff;
     justify-items: center;
     font-size: 11px;
+    transition: display 0.5s;
+  }
+  .projects__content:hover .projects__layer{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 410px) {
+  .projects__layer{
+    background: linear-gradient(rgba(0,0,0,0.7), hsla(207, 65%, 65%, 1));
+    position: absolute;
+    bottom: 104.5px;
+    left: 74.5px;
+    width: 220px;
+    height: 170px;
+    border-radius: .75rem;
+    display: none;
+    text-align: center;
+    padding: 10px 10px;
+    color: #fff;
+    justify-items: center;
+    font-size: 10px;
     transition: display 0.5s;
   }
   .projects__content:hover .projects__layer{
@@ -893,6 +915,25 @@ body.dark-theme {
     height: 220px;
     width: 290px;
     justify-self: center;
+  }
+  .projects__layer{
+    background: linear-gradient(rgba(0,0,0,0.7), hsla(207, 65%, 65%, 1));
+    position: absolute;
+    bottom: 104.5px;
+    left: 55px;
+    width: 290px;
+    height: 220px;
+    border-radius: .75rem;
+    display: none;
+    text-align: center;
+    padding: 35px 10px;
+    color: #fff;
+    justify-items: center;
+    font-size: 11px;
+    transition: display 0.5s;
+  }
+  .projects__content:hover .projects__layer{
+    display: block;
   }
 }
 @media screen and (min-width: 570px) {
@@ -954,9 +995,28 @@ body.dark-theme {
     width: 500px;
   }
   .projects__img{
-    height: 300px;
-    width: 380px;
+    height: 250px;
+    width: 350px;
     justify-self: center;
+  }
+  .projects__layer{
+    background: linear-gradient(rgba(0,0,0,0.7), hsla(207, 65%, 65%, 1));
+    position: absolute;
+    bottom: 104.5px;
+    left: 75px;
+    width: 350px;
+    height: 250px;
+    border-radius: .75rem;
+    display: none;
+    text-align: center;
+    padding: 35px 30px;
+    color: #fff;
+    justify-items: center;
+    font-size: 11px;
+    transition: display 0.5s;
+  }
+  .projects__content:hover .projects__layer{
+    display: block;
   }
   .contact__form{
     width: 360px;
