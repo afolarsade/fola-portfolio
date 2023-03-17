@@ -828,23 +828,7 @@ body.dark-theme {
     justify-self: center;
   }
   .projects__layer{
-    background: linear-gradient(rgba(0,0,0,0.7), hsla(207, 65%, 65%, 1));
-    position: absolute;
-    bottom: 105px;
-    left: 55px;
-    width: 200px;
-    height: 160px;
-    border-radius: .75rem;
     display: none;
-    text-align: center;
-    padding: 12px 10px;
-    color: #fff;
-    justify-items: center;
-    font-size: 9px;
-    transition: display 0.5s;
-  }
-  .projects__content:hover .projects__layer{
-    display: block;
   }
   .meetme{
     display: none;
@@ -868,45 +852,13 @@ body.dark-theme {
     right: .05rem;
   }
   .projects__layer{
-    background: linear-gradient(rgba(0,0,0,0.7), hsla(207, 65%, 65%, 1));
-    position: absolute;
-    bottom: 104.5px;
-    left: 38px;
-    width: 220px;
-    height: 200px;
-    border-radius: .75rem;
     display: none;
-    text-align: center;
-    padding: 10px 10px;
-    color: #fff;
-    justify-items: center;
-    font-size: 11px;
-    transition: display 0.5s;
-  }
-  .projects__content:hover .projects__layer{
-    display: block;
   }
 }
 
 @media screen and (min-width: 410px) {
   .projects__layer{
-    background: linear-gradient(rgba(0,0,0,0.7), hsla(207, 65%, 65%, 1));
-    position: absolute;
-    bottom: 110.5px;
-    left: 74.5px;
-    width: 220px;
-    height: 170px;
-    border-radius: .75rem;
     display: none;
-    text-align: center;
-    padding: 10px 10px;
-    color: #fff;
-    justify-items: center;
-    font-size: 9px;
-    transition: display 0.5s;
-  }
-  .projects__content:hover .projects__layer{
-    display: block;
   }
 }
 
@@ -917,23 +869,7 @@ body.dark-theme {
     justify-self: center;
   }
   .projects__layer{
-    background: linear-gradient(rgba(0,0,0,0.7), hsla(207, 65%, 65%, 1));
-    position: absolute;
-    bottom: 104.5px;
-    left: 55px;
-    width: 290px;
-    height: 220px;
-    border-radius: .75rem;
     display: none;
-    text-align: center;
-    padding: 35px 10px;
-    color: #fff;
-    justify-items: center;
-    font-size: 11px;
-    transition: display 0.5s;
-  }
-  .projects__content:hover .projects__layer{
-    display: block;
   }
 }
 @media screen and (min-width: 570px) {
@@ -1000,23 +936,7 @@ body.dark-theme {
     justify-self: center;
   }
   .projects__layer{
-    background: linear-gradient(rgba(0,0,0,0.7), hsla(207, 65%, 65%, 1));
-    position: absolute;
-    bottom: 104.5px;
-    left: 75px;
-    width: 350px;
-    height: 250px;
-    border-radius: .75rem;
     display: none;
-    text-align: center;
-    padding: 35px 30px;
-    color: #fff;
-    justify-items: center;
-    font-size: 11px;
-    transition: display 0.5s;
-  }
-  .projects__content:hover .projects__layer{
-    display: block;
   }
   .contact__form{
     width: 360px;
@@ -1026,6 +946,7 @@ body.dark-theme {
     column-gap: 8rem;
   }
 }
+
 
 /* For large devices */
 @media screen and (min-width: 1023px) {
@@ -1104,6 +1025,7 @@ body.dark-theme {
     margin-inline: auto;
   }
 }
+
 
 @media screen and (min-width: 1200px) {
   .section__border{
